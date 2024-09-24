@@ -9,4 +9,4 @@ def client():
 
 def test_home(client):
     rv = client.get('/')
-    assert rv.STATUS_CODE == 200
+    assert rv.status_code == 200
